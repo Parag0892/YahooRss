@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">&quot;Yahoo Rss Reader&quot;</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="motto">UNITE HINDU - SAVE HUMANITY</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+
+</resources>
