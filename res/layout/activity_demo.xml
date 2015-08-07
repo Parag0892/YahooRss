@@ -18,7 +18,7 @@
         
   <ListView
       android:id="@+id/button2_n"
-      android:layout_width="170dp"
+      android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_marginTop="2dp"
       android:background="#00aff0"
@@ -42,15 +42,15 @@
         
   <RelativeLayout
       android:id="@+id/relativeLayout1_n"
-      android:layout_width="317dp"
+      android:layout_width="match_parent"
       android:layout_height="70dp"
-      android:background="@drawable/load" />
+      android:background="@drawable/head" />
        
- <RelativeLayout android:id="@+id/relativeLayout2_n"
-      android:layout_width="319dp"
-       android:layout_height="42dp"
-        android:background="#FFFFFF"
-        >
+ <RelativeLayout
+     android:id="@+id/relativeLayout2_n"
+     android:layout_width="match_parent"
+     android:layout_height="42dp"
+     android:background="#FFFFFF" >
         
   <Button android:id="@+id/button1_n"
        android:layout_width="50dp" 
@@ -72,14 +72,15 @@
       android:textColor="#FF8601"
       android:textSize="20sp" />
 
- <Button
+ <ImageButton
       android:id="@+id/refresh_2"
      
-      android:layout_width="wrap_content"
+      android:layout_width="50dp"
       android:layout_height="wrap_content"
       android:layout_alignParentRight="true"
       android:layout_alignParentTop="true"
-      android:text="refresh" />
+      
+      android:background="@drawable/refresh" />
             
   </RelativeLayout>
  <LinearLayout android:layout_width="match_parent" 

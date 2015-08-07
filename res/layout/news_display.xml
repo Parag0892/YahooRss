@@ -10,36 +10,52 @@
         android:layout_height="465dp"
         android:layout_weight="0.90" />
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginTop="5dp"
         android:background="#000000"
         android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/comment1"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="comment" />
-
+      
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="41dp"
+            android:layout_toRightOf="@+id/comment1"
             android:text="0"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#ffffff" />
 
         <Button
-            android:id="@+id/save"
-            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/bletooth_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:visibility="visible"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/saving"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/bletooth_send"
             android:text="Save" />
-    </LinearLayout>
+
+        <Button
+            android:id="@+id/comment1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="comment" />
+
+    </RelativeLayout>
 
 </LinearLayout>
